@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item android:title="Sports List">
+        <menu>
+            <item
+                android:id="@+id/nav_all"
+                android:icon="@drawable/ic_game"
+                android:checked="true"
+                android:title="All" />
+            <item
+                android:id="@+id/nav_nba"
+                android:icon="@drawable/ic_basketball"
+                android:title="NBA" />
+            <item
+                android:id="@+id/nav_mlb"
+                android:icon="@drawable/ic_ba"
+                android:title="MLB" />
+            <item
+                android:id="@+id/nav_live"
+                android:icon="@drawable/ic_live"
+                android:title="Live Score Demo" />
+            <item
+                android:id="@+id/nav_schedule"
+                android:icon="@drawable/ic_calendar"
+                android:title="NBA Schedule" />
+            <item
+                android:id="@+id/nav_schedule_mlb"
+                android:icon="@drawable/ic_calendar"
+                android:title="MLB Schedule" />
+        </menu>
+    </item>
+    </group>
+</menu>
